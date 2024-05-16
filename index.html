@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Pankaj Banseriya Portfolio</title>
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="#" class="link">Pankaj's Portfolio</a>
+    </h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#top">Home</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#About">About</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">PANKAJ BANSERIYA</span></h1>
+      <h2 class="about__role">A Front end Developer.</h2>
+      <p class="about__desc">
+        Welcome to my corner of the web! I'm Pankaj Banseriya, a frontend developer passionate about crafting beautiful
+        and functional websites using HTML, CSS, and JavaScript. Whether you're looking for a sleek user interface,
+        responsive design, or smooth animations, I've got you covered.
+      </p>
+
+      <div class="about__contact center">
+        <a href="Resume.pdf">
+          <span class="btn btn--outline">Resume</span>
+        </a>
+
+        <a href="https://github.com/PankajBanseriya" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/pankaj-banseriya-7a62332a9/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="about center" id="About">
+      <h2 class="about__role">About Me</h2>
+      <p class="about__desc">
+        Hello! I’m Pankaj Banseriya, a passionate frontend developer based in Indore (M.P). With a love for clean code
+        and pixel-perfect designs, I thrive on turning ideas into beautiful, functional websites. Here’s a glimpse into
+        my journey:
+      </p>
+      <p class="about__desc"><b>Education:</b> I am pursuing a degree in BCA from Holkar Science College. During my
+        studies, I discovered my passion for web development and decided to delve deeper into the world of HTML, CSS,
+        and JavaScript.</p>
+      <p class="about__desc"><b>Early Projects:</b> My journey began with small personal projects—building my blog,
+        experimenting with CSS animations, and creating simple web pages. Each project taught me something new and
+        fueled my curiosity.</p>
+      <p class="about__desc"><b>Continuous Learning:</b> The tech world evolves rapidly, and I’m committed to staying
+        up-to-date. Whether it’s learning a new framework or exploring emerging trends, I’m always hungry for knowledge.
+      </p>
+      <p class="about__desc"><b>Collaboration:</b> I thrive in collaborative environments. Working with designers,
+        backend developers, and other stakeholders allows me to create holistic solutions.</p>
+    </div>
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Netflix Clone</h3>
+          <p class="project__description"> The project aimed to replicate the user interface and functionality of
+            Netflix, including features. Implemented responsive design using Tailwind CSS to ensure compatibility across
+            various devices.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+          </ul>
+
+          <a href="https://github.com/PankajBanseriya/Netfilx-Clone" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://clone-netflix.netlify.app/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Tic-Tac-Toe</h3>
+          <p class="project__description">
+            The game logic is implemented using JavaScript. It manages the state of the game, checks for win
+            conditions after each move, and determines the winner or if the game ends in a draw. 
+
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/PankajBanseriya/Tic-Tac-Toe" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://serene-dodol-5f1199.netlify.app/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">Bootstrap</li>
+        <li class="skills__list-item btn btn--plain">Tailwind CSS</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:pankajbanseriya@gmail.com">
+        <span class="btn btn--outline">Email me</span>
+      </a>
+      <p class="about__desc"><b>Mobile No. :</b> 9993236578</p>
+      <div class="about__contact center">
+        <a href="https://github.com/PankajBanseriya" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github" style="margin: 0px 10px;"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/pankaj-banseriya-7a62332a9/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin" style="margin: 0px 10px;"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="link footer__link">
+      © 2024 Pankaj Banseriya. All rights reserved.
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
